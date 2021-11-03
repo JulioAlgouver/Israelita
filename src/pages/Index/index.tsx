@@ -8,7 +8,7 @@ import './index.css';
 
 function redirect() {
     var i = 0;
-    var timeLimit = 20000;
+    var timeLimit = 8000;
     var redirectLink = "/home";
 
     while(i<timeLimit){
@@ -21,7 +21,9 @@ function redirect() {
 
 const Main: React.FC = () => {
     
-    redirect();
+    setTimeout(() => {
+        redirect();
+    }, 2000);
 
     return(
         <div id="main_content">
