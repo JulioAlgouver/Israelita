@@ -4,8 +4,7 @@ import {Link} from 'react-router-dom';
 //IMAGES
 import logo from '../../images/logoMinisterio.png';
 
-
-
+//CSS
 import './menu.css';
 
 const Menu: React.FC = () => {
@@ -45,7 +44,7 @@ const Menu: React.FC = () => {
                         </button>
 
                         <button>
-                            <Link to="/oferta" className="linkHome">Contato</Link>
+                            <Link to="/contato" className="linkHome">Contato</Link>
                         </button>
                 </div>
             </div>
