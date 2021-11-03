@@ -10,7 +10,7 @@
   height: 100%;
   float: left;
 
-  background-color: aquamarine;
+  background-color: white;
 }
 
 #main_contato .contatos{
@@ -18,5 +18,5 @@
   height: 100%;
   float: right;
 
-  background-color: rgb(243, 150, 116);
+  background-color: rgb(27, 34, 53);
 }
