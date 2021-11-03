@@ -6,10 +6,15 @@ import './index.css';
 const Contato: React.FC = () => {
   return(
     <>
-      <Menu/>
+      <div id='main_contato'>
+        <Menu/>
 
-      <div>
+        <div className='map'>
+          
+        </div>
+        <div className='contatos'>
 
+        </div>
       </div>
     </>
   )
