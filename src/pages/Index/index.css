@@ -1,0 +1,15 @@
+#main_content{
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(30deg,rgb(41, 41, 89),rgb(59, 59, 123) 95%);
+    background-size: 100%;
+}
+
+#main_content img {
+    margin-top: 6%;
+
+    float: center;
+    align-content: center;
+    justify-content: center;
+}
