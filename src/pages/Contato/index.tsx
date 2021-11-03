@@ -5,7 +5,13 @@ import './index.css';
 
 const Contato: React.FC = () => {
   return(
-    <Menu/>
+    <>
+      <Menu/>
+
+      <div>
+
+      </div>
+    </>
   )
 }
 
