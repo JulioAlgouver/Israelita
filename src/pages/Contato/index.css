@@ -13,10 +13,51 @@
   background-color: white;
 }
 
+#main_contato .map iframe{
+  width: 99.7%;
+  height: 550px;
+
+  top: 15vh;
+
+  display: flex;
+  position: relative;
+}
+
 #main_contato .contatos{
   width: 25%;
   height: 100%;
   float: right;
 
   background-color: rgb(27, 34, 53);
+}
+
+#main_contato .contatos button{
+  width: 250px;
+  height: 100px;
+  top: 10vw;
+  left: 50px;
+
+  padding: 15px;
+
+  margin-bottom: 30px;
+  border-radius: 15px;
+  background-color: rgb(27, 34, 53);
+  border-style: solid;
+  border-width: 3px;
+  border-color: thistle;
+  position: relative;
+
+  display: flex;
+  align-items: left;
+}
+
+#main_contato .contatos button:hover{
+  transition: 0.5s;
+  box-shadow: 1px 1px 10px 3px thistle;
+  cursor: pointer;
+}
+
+#main_contato .contatos button strong{
+  color: whitesmoke;
+  font-size: 15px;
 }
