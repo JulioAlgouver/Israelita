@@ -54,6 +54,7 @@
 #main_contato .contatos button .link{
   width: 250px;
   height: 100px;
+  display: flex;
   text-decoration: none;
 }
 
