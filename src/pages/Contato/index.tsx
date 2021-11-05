@@ -21,32 +21,46 @@ function goToVilaSandra(){
 const Contato: React.FC = () => {
   return(
     <>
-      <div id='main_contato'>
-        <Menu/>
+    <div id='main_contato'>
+      <Menu/>
 
-        <div className='map'>
-        <iframe src={map}/>
-        </div>
-        <div className='contatos'>
-
-          <button className='btn_sede' type='button' name='btn_sede' onClick={goToSede}>
-          <Link to ='/contato/sede' className='link'>
-          <strong>
-              Sede - Costeira
-            </strong>
-            </Link>
-          </button>
-
-          <button className='btn_vilaSandra' type='button' name='btn_vilaSandra' onClick={goToVilaSandra}>
-          <Link to ='/contato/vilaSandra' className='link'>
-            <strong>
-              Vila Sandra
-            </strong>
-          </Link>
-          </button>
-        </div>
+      <div className='map'>
+      <iframe src={map}/>
       </div>
-    </>
+      <div className='contatos'>
+
+        <button className='btn_sede' type='button' name='btn_sede'>
+        <Link to ='/contato/sede' className='link'>
+          <strong>
+            Sede - Costeira<br/>
+          </strong>
+          <div className='endereco'>
+              <span>
+                Rua Francisco Raksa Junior, 167<br/>
+                Costeira - Araucária<br/>
+                CEP: 83709-170<br/>
+              </span>
+            </div>
+          </Link>
+        </button>
+
+        <button className='btn_vilaSandra' type='button' name='btn_vilaSandra'>
+        <Link to ='/contato/vilaSandra' className='link'>
+          <strong>
+            Vila Sandra<br/>
+          </strong>
+          <div className='endereco'>
+            <span>
+              Rua Cidade de Pomerode, 491<br/>
+              CIC - Curitiba<br/>
+              CEP: 81230-130<br/>
+            </span>
+          </div>
+        </Link>
+        </button>
+      </div>
+    </div>
+  </>
   )
 }
 
