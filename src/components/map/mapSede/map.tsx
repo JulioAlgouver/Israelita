@@ -5,7 +5,7 @@ import Menu from "../../../components/menu/menu";
 //CSS
 import './map.css';
 
-var map='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1512.7933898881051!2d-49.37737016523881!3d-25.60327714253491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dd01f7e66f6143%3A0x8396236136cf4b!2sR.%20Francisco%20Raksa%20J%C3%BAnior%2C%20155%20-%20Costeira%2C%20Arauc%C3%A1ria%20-%20PR%2C%2083709-170!5e0!3m2!1spt-BR!2sbr!4v1636129145117!5m2!1spt-BR!2sbr';
+var map='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d534.854199960594!2d-49.37670692024592!3d-25.603060809908655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dd0185d4afe0cd%3A0x4744455449c473fc!2sIgreja%20Evang%C3%A9lica%20Assembl%C3%A9ia%20de%20Deus%20-%20Minist%C3%A9rio%20Israelita!5e0!3m2!1spt-BR!2sbr!4v1636143909590!5m2!1spt-BR!2sbr';
 
 const MapSede: React.FC = () => {
   return(

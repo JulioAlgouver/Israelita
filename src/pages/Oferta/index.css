@@ -1,0 +1,15 @@
+#main_content_oferta{
+  color: rgb(78, 78, 78);
+}
+
+#main_content_oferta .chavePIX{
+  color: rgb(50, 188, 173);
+}
+
+#main_content_oferta .versiculo{
+  position: relative;
+  display: flex;
+  top: 25px;
+  font-size: 18px;
+  color: rgb(78, 78, 78);
+}
