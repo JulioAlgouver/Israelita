@@ -51,6 +51,12 @@
   align-items: left;
 }
 
+#main_contato .contatos button .link{
+  width: 250px;
+  height: 100px;
+  text-decoration: none;
+}
+
 #main_contato .contatos button:hover{
   transition: 0.5s;
   box-shadow: 1px 1px 10px 3px thistle;

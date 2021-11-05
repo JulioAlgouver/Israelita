@@ -30,15 +30,19 @@ const Contato: React.FC = () => {
         <div className='contatos'>
 
           <button className='btn_sede' type='button' name='btn_sede' onClick={goToSede}>
+          <Link to ='/contato/sede' className='link'>
           <strong>
               Sede - Costeira
             </strong>
+            </Link>
           </button>
 
           <button className='btn_vilaSandra' type='button' name='btn_vilaSandra' onClick={goToVilaSandra}>
+          <Link to ='/contato/vilaSandra' className='link'>
             <strong>
               Vila Sandra
             </strong>
+          </Link>
           </button>
         </div>
       </div>
