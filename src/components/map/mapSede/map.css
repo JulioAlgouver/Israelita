@@ -46,15 +46,12 @@
   border-width: 3px;
   border-color: thistle;
   position: relative;
-
-  display: flex;
-  align-items: left;
 }
 
 #main_contato .contatos button .link{
   width: 250px;
   height: 100px;
-  display: flex;
+
   text-decoration: none;
 }
 
@@ -64,7 +61,25 @@
   cursor: pointer;
 }
 
-#main_contato .contatos button strong{
+#main_contato .contatos button .link strong{
+  width: 250px;
+  font-family: 'Roboto', sans-serif;
   color: whitesmoke;
   font-size: 15px;
+
+  display: flex;
+}
+
+#main_contato .contatos button .link .endereco{
+  width: 100%;
+  margin-top: 5px;
+  position: absolute;
+
+  font-family: 'Roboto', sans-serif;
+  color: whitesmoke;
+  font-size: 13px;
+
+  display: flex;
+  text-align: left;
+  float: left;
 }
