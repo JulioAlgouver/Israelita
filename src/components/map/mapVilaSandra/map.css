@@ -1,0 +1,18 @@
+#main_map{
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  position: relative;
+  display: flex;
+}
+
+#main_map iframe{
+  width: 99.7%;
+  height: 550px;
+
+  top: 15vh;
+
+  display: flex;
+  position: absolute;
+}

@@ -1,12 +1,12 @@
 import React from "react";
-import Menu from "../../components/menu/menu";
+import Menu from "../../../components/menu/menu";
 
 //CSS
-import './index.css';
+import './map.css';
 
-var map='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115162.94992544627!2d-49.44205219543946!3d-25.57691670774865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dd02f54dadbe6b%3A0xb140cbe0e164b0f4!2zQXJhdWPDoXJpYSwgUFI!5e0!3m2!1spt-BR!2sbr!4v1635971357884!5m2!1spt-BR!2sbr';
+var map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.0467074473054!2d-49.378631685330134!3d-25.603364146032117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dd01f7e66f6143%3A0x8396236136cf4b!2sR.%20Francisco%20Raksa%20J%C3%BAnior%2C%20155%20-%20Costeira%2C%20Arauc%C3%A1ria%20-%20PR%2C%2083709-170!5e0!3m2!1spt-BR!2sbr!4v1636118084249!5m2!1spt-BR!2sbr';
 
-const Contato: React.FC = () => {
+const MapSede: React.FC = () => {
   return(
     <>
       <div id='main_contato'>
@@ -33,4 +33,4 @@ const Contato: React.FC = () => {
   )
 }
 
-export default Contato;
+export default MapSede;
