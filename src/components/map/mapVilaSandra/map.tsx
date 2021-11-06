@@ -47,6 +47,10 @@ const MapVilaSandra: React.FC = () => {
           </div>
         </Link>
         </button>
+
+        <div className='imagem_igreja'>
+
+        </div>
       </div>
     </div>
   </>
