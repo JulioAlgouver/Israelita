@@ -16,3 +16,38 @@
   display: flex;
   position: absolute;
 }
+
+#main_contato .imagem_igreja{
+  position: relative;
+  top: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main_contato .btn_facebook button .linkButton{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  left: 80px;
+  bottom: 5px;
+
+  display: flex;
+
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#main_contato .btn_facebook button{
+  top: 165px;
+  height: 20px;
+  background: rgb(59, 89, 151);
+}
+
+#main_contato .btn_facebook button:hover{
+  transition: 0.3s;
+  box-shadow: 1px 1px 5px 1px lightblue;
+}

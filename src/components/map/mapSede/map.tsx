@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Menu from "../../../components/menu/menu";
 
+//IMAGES
+import imgIgreja from '../../../images/sede_fachada.jpg';
+
 //CSS
 import './map.css';
 
@@ -49,9 +52,17 @@ const MapSede: React.FC = () => {
           </button>
 
           <div className='imagem_igreja'>
-
-          </div>
+          <img src={imgIgreja} width='250px'/>
         </div>
+
+        <div className='btn_facebook'>
+          <button>
+            <a href='https://www.facebook.com/somos.israelitas' target='_blank' className='linkButton'>
+              Facebook
+            </a>
+          </button>
+        </div>
+      </div>
       </div>
     </>
   )
