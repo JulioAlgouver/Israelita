@@ -20,7 +20,7 @@ const Oferta: React.FC = () => {
         E-mail<br/>
       </strong>
       <span className='chavePIX'>
-        ieadisraelita@gmail.com<p/>
+        ieadisraelita@hotmail.com<p/>
       </span>
       <div className='versiculo'>
         Cada um dê conforme determinou em seu coração, não com pesar ou por obrigação, pois Deus ama quem dá com alegria. <br/>2 Coríntios 9:7<br/>
