@@ -22,9 +22,13 @@ const Menu: React.FC = () => {
                         <button>
                             <Link to="/home" className="linkHome">Home</Link>
                         </button>
+
+                        <button>
+                            <Link to="/sobre" className="linkHome">Sobre</Link>
+                        </button>
                         
                         <button>
-                            <Link to="/agenda" className="linkHome">Agenda</Link>
+                            <Link to="/agenda" className="linkHome">Agenda 2022</Link>
                         </button>
 
                         <button>    

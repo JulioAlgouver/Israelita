@@ -4,6 +4,7 @@ import { BrowserRouter, Route,Switch } from 'react-router-dom';
 //COMPONENTS
 import Index from '../pages/Index';
 import Home from '../pages/Landing';
+import Sobre from '../pages/Sobre';
 import Agenda from '../pages/Agenda';
 import Cultos from '../pages/Cultos';
 import Radio from '../pages/Radio';
@@ -19,6 +20,7 @@ const Routes: React.FC = () => (
         <Switch>
             <Route path="/" exact component={Index}/>
             <Route path="/home" exact component={Home}/>
+            <Route path="/sobre" exact component={Sobre}/>
             <Route path="/agenda" exact component={Agenda}/>
             <Route path="/cultos" exact component={Cultos}/>
             <Route path="/radio" exact component={Radio}/>
