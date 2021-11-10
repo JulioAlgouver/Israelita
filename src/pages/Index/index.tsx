@@ -23,7 +23,7 @@ const Main: React.FC = () => {
     
     setTimeout(() => {
         redirect();
-    }, 2000);
+    }, 800);
 
     return(
         <div id="main_content">
