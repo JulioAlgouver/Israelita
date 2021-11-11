@@ -4,7 +4,7 @@
 }
 
 #main_radio_content .capaDespertai{
-  width: 60vw;
+  width: 70vw;
   height: 30vh;
 
   position: absolute;
@@ -15,17 +15,15 @@
   position: relative;
   display: flex;
   
-  width: 50vw;
-  height: 30vh;
+  width: 70vw;
+  height: 45vh;
   top: 15vh;
 }
 
 #main_radio_content .horarios{
-  width: 50vw;
+  width: 30vw;
   height: 30vh;
   background: linear-gradient(2200deg, rgb(36, 33, 33),rgb(27, 27, 27));
-  background-size: 50vw 30vh;
-  background-repeat: none;
 
   position: relative;
   display: flex;
@@ -40,4 +38,14 @@
   position: relative;
   float: left;
   top: 22vh;
+}
+
+#main_radio_content .horarios .title{
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+  font-size: 50px;
+  padding: 30px;
+
+  position: absolute;
 }

@@ -36,7 +36,7 @@ const Menu: React.FC = () => {
                         </button>
 
                         <button>    
-                            <Link to="/radio" className="linkHome">Web-Rádio</Link>
+                            <Link to="/radio" className="linkHome">Mídia</Link>
                         </button>
 
                         <button>    

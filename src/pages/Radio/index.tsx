@@ -19,6 +19,14 @@ const Radio: React.FC = () => {
         <img src={capaDespertai}/>
       </div>
       <div className='horarios'>
+        <div className='title'>
+          <span>
+          web
+          </span>
+          <strong>
+          Radio
+          </strong>
+        </div>
         <div className='playerboard'>
         <Player url='https://servidor34-4.brlogic.com:8308/live?source=website'/>
         </div>
