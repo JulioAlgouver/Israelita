@@ -1,11 +1,10 @@
 #main_radio_content{
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(2250deg, rgb(214, 214, 214), rgb(255, 255, 255) 100%);
 }
 
 #main_radio_content .capaDespertai{
-  width: 50vw;
+  width: 60vw;
   height: 30vh;
 
   position: absolute;
@@ -17,14 +16,16 @@
   display: flex;
   
   width: 50vw;
-  height: 25vh;
+  height: 30vh;
   top: 15vh;
 }
 
 #main_radio_content .horarios{
   width: 50vw;
-  height: 25vh;
-  background: linear-gradient(2200deg, rgba(14, 14, 14),rgb(41, 39, 39));
+  height: 30vh;
+  background: linear-gradient(2200deg, rgb(36, 33, 33),rgb(27, 27, 27));
+  background-size: 50vw 30vh;
+  background-repeat: none;
 
   position: relative;
   display: flex;
@@ -38,5 +39,5 @@
 
   position: relative;
   float: left;
-  top: 17vh;
+  top: 22vh;
 }

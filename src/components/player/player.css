@@ -1,0 +1,26 @@
+#button-play{
+  width: 50vw;
+}
+
+#button-play .Button{
+  margin-left: 20px;
+  background: none;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#button-play button:hover{
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#button-play .Button .playButton{
+  width: 60px;
+}
+
+#button-play .Button .pauseButton{
+  width: 60px;
+}
