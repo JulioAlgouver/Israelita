@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100vh;
   position: absolute;
+  display: flex;
 }
 
 #main_landing .header{
@@ -11,21 +12,23 @@
 
   display: flex;
   float: right;
+  z-index: 2;
 }
 
 #main_landing .header .logo{
   width: 50%;
-
   display: flex;
   align-items: center;
   justify-content: left;
   margin-left: 0px;
+  z-index: 1;
 }
 
 #main_landing .header .logo img{
   width: 60px;
   height: 60px;
   margin-right: 10px;
+  margin-left: 20px;
 }
 
 #main_landing .header .logo h6{
@@ -41,6 +44,7 @@
   display: flex;
   float: right;
   align-items: center;
+  z-index: 1;
 }
 
 #main_landing .header .menu button{

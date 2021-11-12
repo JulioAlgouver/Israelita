@@ -1,5 +1,6 @@
 #button-play{
-  width: 30vw;
+  width: 15vw;
+  padding-left: 20vh;
 }
 
 #button-play .Button{
@@ -15,12 +16,15 @@
 #button-play button:hover{
   cursor: pointer;
   border-radius: 20px;
+  z-index: 1;
 }
 
 #button-play .Button .playButton{
   width: 70px;
+  z-index: 1;
 }
 
 #button-play .Button .pauseButton{
   width: 70px;
+  z-index: 1;
 }

@@ -1,24 +1,29 @@
 #main_radio_content{
   width: 100vw;
   height: 100vh;
+
+  background: linear-gradient(2200deg, rgb(36, 33, 33),rgb(27, 27, 27));
+  z-index: 0;
 }
 
 #main_radio_content .capaDespertai{
   width: 70vw;
   height: 30vh;
+  left: 18vh;
 
   position: absolute;
   display: flex;
   float: left;
+  justify-content: right;
 
-  z-index: -1;
+  z-index: 0;
 }
 
 #main_radio_content .capaDespertai img{
   position: relative;
   display: flex;
   
-  width: 70vw;
+  width: 60vw;
   height: 30vh;
   top: 15vh;
 }
@@ -26,7 +31,6 @@
 #main_radio_content .horarios{
   width: 30vw;
   height: 30vh;
-  background: linear-gradient(2200deg, rgb(36, 33, 33),rgb(27, 27, 27));
 
   position: relative;
   display: flex;
@@ -49,6 +53,26 @@
 
   font-size: 50px;
   padding: 30px;
+  padding-left: 20vh;
 
   position: absolute;
+}
+
+.grid_background{
+  width: 100vw;
+  height: 55vh;
+  top: 45vh;
+
+  background: linear-gradient(2200deg,rgb(47, 47, 77),rgb(52, 52, 112) 80%);
+  position: absolute;
+  display: flex; 
+  justify-content: center;
+}
+
+.grid_background .grid_videos{
+  top: 50vh;
+  width: 80vw;
+  height: 55vh;
+  
+  background: linear-gradient(2000deg, rgb(238, 231, 231),rgb(228, 222, 222));
 }

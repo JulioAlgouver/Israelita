@@ -32,6 +32,11 @@ const Radio: React.FC = () => {
         </div>
       </div>
     </div>
+    <div className='grid_background'>
+      <div className='grid_videos'>
+
+      </div>
+    </div>
     </>
   )
 }
