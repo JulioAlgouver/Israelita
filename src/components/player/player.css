@@ -1,5 +1,5 @@
 #button-play{
-  width: 50vw;
+  width: 30vw;
 }
 
 #button-play .Button{
@@ -18,9 +18,9 @@
 }
 
 #button-play .Button .playButton{
-  width: 60px;
+  width: 70px;
 }
 
 #button-play .Button .pauseButton{
-  width: 60px;
+  width: 70px;
 }

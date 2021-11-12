@@ -40,13 +40,13 @@ const Player = ({ url }) => {
           {playing ? <img src={pauseButton} className='pauseButton'/> : <img src={playButton} className='playButton'/>}
         </button>
       </div>
-      <div class="player-timeline">
-        <div class="player-timeline-control">
+      <div className="player-timeline">
+        <div className="player-timeline-control">
 
         </div>
       </div>
-      <div class="player-display">
-        Playing: <span class="player-current-track"></span>
+      <div className="player-display">
+        
       </div>
     </>
   );

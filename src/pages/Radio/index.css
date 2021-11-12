@@ -9,6 +9,9 @@
 
   position: absolute;
   display: flex;
+  float: left;
+
+  z-index: -1;
 }
 
 #main_radio_content .capaDespertai img{

@@ -9,8 +9,8 @@
   height: 15%;
   background: linear-gradient(2200deg,rgb(47, 47, 77),rgb(52, 52, 112) 80%);
 
-  position: relative;
   display: flex;
+  float: right;
 }
 
 #main_landing .header .logo{
