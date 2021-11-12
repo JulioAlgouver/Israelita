@@ -16,13 +16,14 @@ const descricaoMidia: React.FC=()=>{
   useEffect(() =>{
     apiRadio.get('currentTrack').then(response =>{
       setTrack(response.data)
+      console.log(data);
     })
   },[]);
 
   return(
     <>
       <div>
-        
+
       </div>
     </>
   )

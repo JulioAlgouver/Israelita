@@ -5,7 +5,7 @@ import Menu from "../../components/menu/menu";
 import Player from "../../components/player/player";
 
 //IMAGES
-import capaDespertai from '../../images/capa_despertai.jpg';
+import capaDespertai from '../../images/background1.jpg';
 
 //CSS
 import './index.css';

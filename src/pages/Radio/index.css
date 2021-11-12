@@ -16,13 +16,13 @@
   display: flex;
   
   width: 70vw;
-  height: 45vh;
+  height: 30vh;
   top: 15vh;
 }
 
 #main_radio_content .horarios{
   width: 30vw;
-  height: 45vh;
+  height: 30vh;
   background: linear-gradient(2200deg, rgb(36, 33, 33),rgb(27, 27, 27));
 
   position: relative;
@@ -37,7 +37,7 @@
 
   position: relative;
   float: left;
-  top: 22vh;
+  top: 18vh;
 }
 
 #main_radio_content .horarios .title{
