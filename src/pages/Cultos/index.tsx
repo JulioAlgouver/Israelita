@@ -8,7 +8,7 @@ const Cultos: React.FC = () => {
   return(
     <>
     <Menu/>
-    <div>
+    <div id='content_cultos'>
 
     </div>
     </>

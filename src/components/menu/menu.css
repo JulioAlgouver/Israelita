@@ -60,10 +60,10 @@
 
   border: none;
   background: none;
+  transition: 0.3s;
 }
 
 #main_landing .header .menu button:hover{
-  transition: 0.3s;
   cursor: pointer;
   
   color: rgb(255, 255, 255);

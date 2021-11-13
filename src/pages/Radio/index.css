@@ -1,3 +1,25 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(43, 43, 63) 80%;
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
 #main_radio_content{
   width: 100vw;
   height: 100vh;
@@ -58,16 +80,16 @@
   font-family: 'Roboto', sans-serif;
 
   font-size: 50px;
-  padding: 30px;
-  padding-left: 20vh;
+  padding: 25px;
+  padding-left: 22vh;
 
   position: absolute;
 }
 
 .grid_background{
   width: 100vw;
-  height: 60vh;
-  top: 40vh;
+  height: 57vh;
+  top: 42vh;
 
   position: absolute;
   display: flex; 
@@ -76,9 +98,59 @@
 
 .grid_background .grid_videos{
   top: 40vh;
-  width: 80vw;
-  height: 60vh;
-  
-  background: linear-gradient(2000deg, rgb(211, 207, 207),rgb(216, 211, 211));
-  box-shadow: 1px 0px 5px 0px rgb(228, 222, 222);
+  width: 85vw;
+  height: 55vh;
+}
+
+.grid_background .grid_videos .list-videos ul{
+  position: relative;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.grid_background .grid_videos .list-videos{
+  width: 24%;
+  height: 100%;
+
+  float: left;
+  display: inline;
+
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.grid_background .grid_videos .list-videos button{
+  width: 70%;
+  height: 20%;
+  margin-top: 10%;
+  border-radius: 20px;
+  background: none;
+
+  float: left;
+  display: flex;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+
+  transition: 0.5s;
+  border: 2px solid grey;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid_background .grid_videos .list-videos button:hover{
+  cursor: pointer;
+  border: 2px solid whitesmoke
+}
+
+.grid_background .grid_videos .video-container{
+  width: 75%;
+  height: 95%;
+
+  float: left;
+  display: flex;
 }
