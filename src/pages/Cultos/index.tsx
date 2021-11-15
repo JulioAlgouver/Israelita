@@ -59,7 +59,7 @@ const Cultos: React.FC = () => {
             </h6>
           </div>
           <div className='quarta'>
-            <strong>Terça</strong>
+            <strong>Quarta</strong>
             <h6>
               
             </h6>
