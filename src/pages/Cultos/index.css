@@ -27,7 +27,6 @@
   height: 87%;
 
   margin-top: 5vw;
-  border: 1px solid;
 
   overflow-y: scroll;
 }
@@ -39,8 +38,6 @@
 
   width: 99.8%;
   height: 99.5%;
-
-  border: 1px solid;
 }
 
 #content_cultos .cultos_geral .cultos_sede span{
@@ -72,7 +69,6 @@
 
   margin-top: 5%;
   margin-left: -45px;
-  border: 1px solid;
   
   font-family: 'Marcellus', serif;
 }
@@ -134,5 +130,70 @@
   height: 99.5%;
 
   top: 400px;
+}
+
+#content_cultos .cultos_geral .cultos_vilaSandra span{
+  position: relative;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+#content_cultos .cultos_geral .cultos_vilaSandra h6{
+  position: absolute;
+  display: inline;
+  margin-top: 100px;
+  align-items: left;
+  justify-content: left;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-size: 15px;
+}
+
+#content_cultos .cultos_geral .cultos_vilaSandra .domingo{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  float: left;
+
+  width: 23%;
+  height: 65%;
+
+  margin-top: 5%;
+  margin-left: -45px;
   border: 1px solid;
+  
+  font-family: 'Marcellus', serif;
+}
+
+#content_cultos .cultos_geral .cultos_vilaSandra .quarta{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  float: left;
+
+  width: 20%;
+  height: 65%;
+
+  margin-top: 5%;
+  margin-left: 3%;
+  border: 1px solid;
+  
+  font-family: 'Marcellus', serif;
+}
+
+#content_cultos .cultos_geral .cultos_vilaSandra .sabado{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  float: left;
+
+  width: 20%;
+  height: 65%;
+
+  margin-top: 5%;
+  margin-left: 3%;
+  border: 1px solid;
+  
+  font-family: 'Marcellus', serif;
 }
