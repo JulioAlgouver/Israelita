@@ -12,7 +12,7 @@
   width: 85%;
   height: 100vh;
 
-  background-color: rgb(212, 205, 205);
+  background: linear-gradient( 2200deg, rgb(190, 190, 190), rgb(230, 229, 229));
   color: rgb(27, 34, 53);;
   overflow-y: scroll;
 }
@@ -37,6 +37,18 @@
 
 }
 
+#main_label_sobre .content .sobre .foto{
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 20%;
+  margin-left: 65%;
+}
+
+#main_label_sobre .content .sobre .foto img{
+  width: 350px;
+}
+
 #main_label_sobre .content .pastores{
   position: absolute;
   display: flex;
@@ -55,6 +67,18 @@
 
 #main_label_sobre .content .pastores span{
 
+}
+
+#main_label_sobre .content .pastores .foto{
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 10%;
+  margin-right: 75%;
+}
+
+#main_label_sobre .content .pastores .foto img{
+  width: 260px;
 }
 
 #main_label_sobre .content .cremos{
