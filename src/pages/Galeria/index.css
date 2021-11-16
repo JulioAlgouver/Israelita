@@ -11,8 +11,17 @@
   display: flex;
   width: 85%;
   height: 100vh;
-
+  
   background: linear-gradient( 2200deg, rgb(190, 190, 190), rgb(230, 229, 229));
   color: rgb(27, 34, 53);;
   overflow-y: scroll;
+}
+
+#main_label_galeria .content strong{
+  position: relative;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 35px;
+  font-weight: 100;
+  padding-top: 10%;
+  padding-left: 4%;
 }

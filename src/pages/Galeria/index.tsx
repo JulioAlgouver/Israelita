@@ -10,6 +10,7 @@ const Galeria: React.FC = () => {
       <Menu/>
       <div id='main_label_galeria'>
         <div className='content'>
+          <strong>Fotos</strong>
 
         </div>
       </div>
