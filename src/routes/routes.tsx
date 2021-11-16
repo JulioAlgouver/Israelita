@@ -13,6 +13,7 @@ import Oferta from '../pages/Oferta';
 import Contato from '../pages/Contato';
 import MapSede from '../components/map/mapSede/map';
 import MapVilaSandra from '../components/map/mapVilaSandra/map';
+import Galeria from '../pages/Galeria';
 
 
 const Routes: React.FC = () => (
@@ -21,6 +22,7 @@ const Routes: React.FC = () => (
             <Route path="/" exact component={Index}/>
             <Route path="/home" exact component={Home}/>
             <Route path="/sobre" exact component={Sobre}/>
+            <Route path="/galeria" exact component={Galeria}/>
             <Route path="/agenda" exact component={Agenda}/>
             <Route path="/cultos" exact component={Cultos}/>
             <Route path="/radio" exact component={Radio}/>
