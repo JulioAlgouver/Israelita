@@ -11,10 +11,13 @@ const Sobre: React.FC = () =>{
   <div id='main_label_sobre'>
     <div className='content'>
       <div className='sobre'>
-        A história de nosso ministério
+        <strong>Nossa história</strong>
       </div>
       <div className='pastores'>
         <strong>Nossos pastores</strong>
+      </div>
+      <div className='cremos'>
+        <strong>No que cremos</strong>
       </div>
     </div>
   </div>
