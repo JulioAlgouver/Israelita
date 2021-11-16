@@ -13,7 +13,7 @@ const Oferta: React.FC = () => {
     <Menu/>
     <div id='main_content_oferta'>
       <span>
-        Faça sua doação de modo fácil e rápido através de nossa chave PIX:<p/>
+        Deixe sua oferta de modo fácil e rápido através de nossa chave PIX:<p/>
       </span>
       <img src={PIX} width='300px'/><p/>
       <strong>
