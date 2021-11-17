@@ -28,6 +28,8 @@ const Main: React.FC = () => {
     return(
         <div id="main_content">
             <img src={logo} width='500px'></img>
+            <p/>
+            <strong>Um novo tempo, um tempo novo!</strong>
         </div>
     )
 }
