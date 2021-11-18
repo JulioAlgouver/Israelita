@@ -7,13 +7,14 @@ import Home from '../pages/Landing';
 import Sobre from '../pages/Sobre';
 import Agenda from '../pages/Agenda';
 import Cultos from '../pages/Cultos';
-import Radio from '../pages/Radio';
+import Midia from '../pages/Radio';
 import Testemunhos from '../pages/Testemunhos';
 import Oferta from '../pages/Oferta';
 import Contato from '../pages/Contato';
 import MapSede from '../components/map/mapSede/map';
 import MapVilaSandra from '../components/map/mapVilaSandra/map';
 import Galeria from '../pages/Galeria';
+import Despertai from '../pages/Radio/Despertai';
 
 
 const Routes: React.FC = () => (
@@ -25,7 +26,9 @@ const Routes: React.FC = () => (
             <Route path="/galeria" exact component={Galeria}/>
             <Route path="/agenda" exact component={Agenda}/>
             <Route path="/cultos" exact component={Cultos}/>
-            <Route path="/radio" exact component={Radio}/>
+            <Route path="/midia" exact component={Midia}/>
+            <Route path="/midia/despertai" exact component={Despertai}/>
+
             <Route path="/testemunhos" exact component={Testemunhos}/>
             <Route path="/oferta" exact component={Oferta}/>
             <Route path="/contato" exact component={Contato}/>
