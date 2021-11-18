@@ -29,16 +29,16 @@ const Midia: React.FC = () => {
       </div>
       <div className='main_label'>
         <div className='despertai'>
-          
+          Programa Despertai
         </div>
         <div className='adoradores'>
-          
+          Programa Adoradores
         </div>
         <div className='cultos-sede'>
-          
+          Cultos gravados (Sede)
         </div>
         <div className='cultos-vilaSandra'>
-          
+          Cultos gravados (Vila Sandra)
         </div>
       </div>
     </div>
