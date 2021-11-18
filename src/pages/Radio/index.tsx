@@ -21,22 +21,24 @@ const Midia: React.FC = () => {
     <>
     <Menu/>
     <div id='main_radio_content'>
-      <div>
+      <div className='menu'>
         <span>web</span><strong>Radio</strong>
-      </div>
-      <div className='button-play'>
-        <Player url='https://servidor34-4.brlogic.com:8308/live?source=website'/>
-      </div>
-      <div className='main_label_despertai'>
-        <div className='list-video' id='list-video-container'>
-          <Popup trigger={<button>06/10</button>} position='right center' closeOnEscape={true} closeOnDocumentClick={true}>
-            <div id='popup-container'>
-              <Despertai06102021/>
-            </div>
-          </Popup>
+        <div className='button-play'>
+          <Player url='https://servidor34-4.brlogic.com:8308/live?source=website'/>
         </div>
-        <div className='video' id='video-container'>
-
+      </div>
+      <div className='main_label'>
+        <div className='despertai'>
+          
+        </div>
+        <div className='adoradores'>
+          
+        </div>
+        <div className='cultos-sede'>
+          
+        </div>
+        <div className='cultos-vilaSandra'>
+          
         </div>
       </div>
     </div>

@@ -56,27 +56,40 @@
   z-index: 1;
 }
 
-#main_radio_content span{
-  position: relative;
-  display: flex;
-  top: 15%;
-}
-
-#main_radio_content strong{
-  position: relative;
-  display: flex;
-  top: 15%;
-}
-
-#main_radio_content .button-play{
+#main_radio_content .menu{
   position: absolute;
+  display: flex;
+  width: 90%;
+  height: 10%;
+  top: 15%;
+}
+
+#main_radio_content .menu span{
+  position: relative;
+  display: flex;
+  top: 15%;
+
+  font-size: 30px;
+}
+
+#main_radio_content .menu strong{
+  position: relative;
+  display: flex;
+  top: 15%;
+  
+  font-size: 30px;
+}
+
+#main_radio_content .menu .button-play{
+  position: absolute;
+  display: flex;
   width: 300px;
   height: 150px;
-  top: 30%;
-  left: 65%;
+  top: -20%;
+  left: 3%;
 }
 
-#main_radio_content .main_label_despertai{
+#main_radio_content .main_label{
   position: absolute;
   display: flex;
   top: 25%;
@@ -87,30 +100,26 @@
   color: rgb(27, 34, 53);
 }
 
-#main_radio_content .main_label_despertai .list-video{
+#main_radio_content .main_label .despertai{
+width: 25%;
+height: 100%;
+border: 1px solid whitesmoke;
+}
+
+#main_radio_content .main_label .adoradores{
   width: 25%;
-  height: 75%;
-  margin-top: 10%;
-  overflow-y: scroll;
+  height: 100%;
+  border: 1px solid whitesmoke;
 }
 
-#main_radio_content .main_label_despertai .list-video button{
-  margin-top: 10%;
-  width: 65%;
-  height: 25%;
-  border: 3px solid whitesmoke;
-  border-radius: 15px;
-  background: none;
-  transition: 0.3s;
+#main_radio_content .main_label .cultos-sede{
+  width: 25%;
+  height: 100%;
+  border: 1px solid whitesmoke;  
 }
 
-#main_radio_content .main_label_despertai .list-video button:hover{
-  cursor: pointer;
-  border: 3px solid rgb(124, 135, 156);
-}
-
-#main_radio_content .main_label_despertai .video{
-  width: 75%;
-  height: 75%;
-  margin-top: 10%;
+#main_radio_content .main_label .cultos-vilaSandra{
+  width: 25%;
+  height: 100%;
+  border: 1px solid whitesmoke;  
 }
