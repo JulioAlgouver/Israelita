@@ -19,138 +19,42 @@
   background: #555;
 }
 
-
 #main_radio_content{
+  position: absolute;
+  display: flex;
   width: 100vw;
   height: 100vh;
 
   background-color: rgb(27, 34, 53);
-}
-
-#main_radio_content .content_capa{
-  width: 100vw;
-  height: auto;
-}
-
-#main_radio_content .capaDespertai{
-  width: 70vw;
-  height: 25vh;
-  left: 18vh;
-
-  position: absolute;
-  display: flex;
-  float: left;
-  justify-content: right;
-
-  z-index: 1;
-}
-
-#main_radio_content .capaDespertai img{
-  position: relative;
-  display: flex;
-  
-  width: 60vw;
-  height: 25vh;
-  top: 15vh;
-}
-
-#main_radio_content .horarios{
-  width: 30vw;
-  height: 30vh;
-
-  position: relative;
-  display: flex;
-  float: right;
-  top: 15vh;
-}
-
-#main_radio_content .horarios .playerboard{
-  width: 50vw;
-  height: 40vh;
-
-  position: relative;
-  float: left;
-  top: 16vh;
-
-  background-color: rgb(27, 34, 53);
-}
-
-#main_radio_content .horarios .title{
-  font-family: 'Mochiy Pop P One', sans-serif;
-  font-family: 'Roboto', sans-serif;
-
-  font-size: 50px;
-  padding: 25px;
-  padding-left: 22vh;
-
-  position: absolute;
-}
-
-.grid_background{
-  width: 100vw;
-  height: 57vh;
-  top: 42vh;
-
-  position: absolute;
-  display: flex; 
   justify-content: center;
-}
-
-.grid_background .grid_videos{
-  top: 40vh;
-  width: 85vw;
-  height: 55vh;
-}
-
-.grid_background .grid_videos .list-videos ul{
-  position: relative;
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-}
-
-.grid_background .grid_videos .list-videos{
-  width: 24%;
-  height: 100%;
-
-  float: left;
-  display: inline;
-
-  justify-content: center;
-  align-items: center;
   overflow-y: scroll;
 }
 
-.grid_background .grid_videos .list-videos button{
-  width: 70%;
-  height: 20%;
-  margin-top: 10%;
-  border-radius: 20px;
-  background: none;
-
-  float: left;
+#main_radio_content img{
+  position: absolute;
   display: flex;
-  color: whitesmoke;
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-
-  transition: 0.5s;
-  border: 2px solid grey;
-  justify-content: center;
-  align-items: center;
+  
+  width: 85%;
+  height: 31%;
+  top: 15%;
+  z-index: 1;
 }
 
-.grid_background .grid_videos .list-videos button:hover{
-  cursor: pointer;
-  border: 2px solid whitesmoke
+#main_radio_content .button-play{
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  top: 30%;
+  left: 65%;
 }
 
-.grid_background .grid_videos .video-container{
-  width: 75%;
-  height: 95%;
-
-  float: left;
+#main_radio_content .main_label{
+  position: absolute;
   display: flex;
+  top: 25%;
+  width: 87%;
+  height: 75%;
+  
+  background: linear-gradient(270deg, rgb(27, 34, 53), rgba(192, 194, 207, 0.877),rgb(27, 34, 53));
+  color: rgb(27, 34, 53);
 }

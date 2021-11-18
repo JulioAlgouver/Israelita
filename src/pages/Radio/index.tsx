@@ -18,40 +18,12 @@ const Radio: React.FC = () => {
     <>
     <Menu/>
     <div id='main_radio_content'>
-      <div className='content_capa'>
-        <div className='capaDespertai'>
-          <img src={capaDespertai}/>
-        </div>
-        <div className='horarios'>
-          <div className='title'>
-            <span>
-            web
-            </span>
-            <strong>
-            Radio
-            </strong>
-          </div>
-          <div className='playerboard'>
-          <Player url='https://servidor34-4.brlogic.com:8308/live?source=website'/>
-          </div>
-        </div>
+    <img src={capaDespertai}/>
+      <div className='button-play'>
+        <Player url='https://servidor34-4.brlogic.com:8308/live?source=website'/>
       </div>
-    </div>
-    <div className='grid_background'>
-      <div className='grid_videos'>
-        <div className='list-videos'>
-          <ul>
-          <Popup trigger={<button>06/11</button>} position='right center' closeOnEscape={true} closeOnDocumentClick={true}>
-              <Despertai06112021 />
-          </Popup>
-          </ul>
-          <ul>
-            <button>30/10</button>
-          </ul>
-        </div>
-        <div className='video-container'>
+      <div className='main_label'>
 
-        </div>
       </div>
     </div>
     </>
@@ -59,3 +31,24 @@ const Radio: React.FC = () => {
 }
 
 export default Radio;
+
+
+/*
+<img src={capaDespertai} width='800px'/>
+<span>
+web
+</span>
+<strong>
+Radio
+</strong>
+<Player url='https://servidor34-4.brlogic.com:8308/live?source=website'/>
+<ul>
+<Popup trigger={<button>06/11</button>} position='right center' closeOnEscape={true} closeOnDocumentClick={true}>
+  <Despertai06112021 />
+</Popup>
+</ul>
+<ul>
+<button>30/10</button>
+</ul>
+</div>
+*/
