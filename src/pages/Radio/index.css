@@ -45,17 +45,6 @@
   align-items: center;
 }
 
-#main_radio_content img{
-  position: absolute;
-  display: flex;
-  
-  width: 85%;
-  height: 30%;
-  opacity: 55%;
-  top: 15%;
-  z-index: 1;
-}
-
 #main_radio_content .menu{
   position: absolute;
   display: flex;
@@ -96,15 +85,27 @@
   width: 87%;
   height: 75%;
   
-  background: linear-gradient(270deg, rgb(27, 34, 53), rgba(155, 157, 172, 0.877),rgb(27, 34, 53));
-  color: rgb(27, 34, 53);
+  background: linear-gradient(90deg, rgb(27, 34, 53), rgba(70, 75, 112, 0.877),rgb(27, 34, 53));
+  color: rgb(219, 208, 219);
 }
 
 #main_radio_content .main_label .despertai{
-width: 25%;
-height: 99%;
-border: 1px solid whitesmoke;
-padding-top: 2%;
+  width: 25%;
+  height: 99%;
+  padding-top: 2%;
+  border: 1px solid whitesmoke;
+  
+  justify-content: center;
+  align-content: center;
+}
+
+#main_radio_content .main_label .despertai img{
+  position: relative;
+  width: 95%;
+  height: 35%;
+  opacity: 100%;
+  left: 3%;
+  top: 0%;
 }
 
 #main_radio_content .main_label .adoradores{

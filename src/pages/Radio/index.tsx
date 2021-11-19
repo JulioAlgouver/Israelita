@@ -5,18 +5,14 @@ import { Link } from "react-router-dom";
 //COMPONENTS
 import Menu from "../../components/menu/menu";
 import Player from "../../components/player/player";
-import Despertai06102021 from './Gravacoes/06102021';
 
 //IMAGES
-import capaDespertai from '../../images/background1.jpg';
+import capaDespertai from '../../images/capa_despertai.jpg';
 
 //CSS
 import './index.css';
 
 const Midia: React.FC = () => {
-
-
-
   return(
     <>
     <Menu/>
@@ -30,15 +26,20 @@ const Midia: React.FC = () => {
       <div className='main_label'>
         <div className='despertai'>
           Programa Despertai
+          <p/>
+          <img src={capaDespertai}/>
         </div>
         <div className='adoradores'>
           Programa Adoradores
+          <p/>
         </div>
         <div className='cultos-sede'>
-          Cultos gravados (Sede)
+          Cultos gravados
+          <p/>
         </div>
         <div className='cultos-vilaSandra'>
-          Cultos gravados (Vila Sandra)
+          Harpa Cristã
+          <p/>
         </div>
       </div>
     </div>
