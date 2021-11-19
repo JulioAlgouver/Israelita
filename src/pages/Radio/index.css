@@ -81,19 +81,19 @@
 #main_radio_content .main_label{
   position: absolute;
   display: flex;
-  top: 25%;
-  width: 87%;
-  height: 75%;
+  top: 26%;
+  width: 90%;
+  height: 70%;
   
   background: linear-gradient(90deg, rgb(27, 34, 53), rgba(70, 75, 112, 0.877),rgb(27, 34, 53));
   color: rgb(219, 208, 219);
+  font-size: 20px;
 }
 
 #main_radio_content .main_label .despertai{
   width: 25%;
   height: 99%;
   padding-top: 2%;
-  border: 1px solid whitesmoke;
   
   justify-content: center;
   align-content: center;
@@ -111,20 +111,44 @@
 #main_radio_content .main_label .adoradores{
   width: 25%;
   height: 99%;
-  border: 1px solid whitesmoke;
   padding-top: 2%;
 }
 
-#main_radio_content .main_label .cultos-sede{
+#main_radio_content .main_label .adoradores img{
+  position: relative;
+  width: 95%;
+  height: 35%;
+  opacity: 100%;
+  left: 3%;
+  top: 0%;
+}
+
+#main_radio_content .main_label .cultos{
   width: 25%;
   height: 99%;
-  border: 1px solid whitesmoke;  
   padding-top: 2%;
 }
 
-#main_radio_content .main_label .cultos-vilaSandra{
+#main_radio_content .main_label .cultos img{
+  position: relative;
+  width: 95%;
+  height: 35%;
+  opacity: 100%;
+  left: 3%;
+  top: 0%;
+}
+
+#main_radio_content .main_label .harpa{
   width: 25%;
   height: 99%;
-  border: 1px solid whitesmoke;
   padding-top: 2%; 
+}
+
+#main_radio_content .main_label .harpa img{
+  position: relative;
+  width: 95%;
+  height: 35%;
+  opacity: 100%;
+  left: 3%;
+  top: 0%;
 }

@@ -8,6 +8,9 @@ import Player from "../../components/player/player";
 
 //IMAGES
 import capaDespertai from '../../images/capa_despertai.jpg';
+import capaAdoradores from '../../images/capa_adoradores.jpg';
+import cultosGravados from '../../images/capa_cultos.png';
+import capaHarpa from '../../images/capa_harpa.jpg';
 
 //CSS
 import './index.css';
@@ -24,22 +27,25 @@ const Midia: React.FC = () => {
         </div>
       </div>
       <div className='main_label'>
+        <div className='adoradores'>
+          Programa Adoradores
+          <p/>
+          <img src={capaAdoradores}/>
+        </div>
         <div className='despertai'>
           Programa Despertai
           <p/>
           <img src={capaDespertai}/>
         </div>
-        <div className='adoradores'>
-          Programa Adoradores
-          <p/>
-        </div>
-        <div className='cultos-sede'>
+        <div className='cultos'>
           Cultos gravados
           <p/>
+          <img src={cultosGravados}/>
         </div>
-        <div className='cultos-vilaSandra'>
+        <div className='harpa'>
           Harpa Cristã
           <p/>
+          <img src={capaHarpa}/>
         </div>
       </div>
     </div>
