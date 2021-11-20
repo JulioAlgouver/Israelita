@@ -31,16 +31,22 @@ const Midia: React.FC = () => {
           Programa Adoradores
           <p/>
           <img src={capaAdoradores}/>
+          <p/>
+          Sábado: 12h às 14h
         </div>
         <div className='despertai'>
           Programa Despertai
           <p/>
           <img src={capaDespertai}/>
+          <p/>
+          Sábado: 14h às 16h
         </div>
         <div className='cultos'>
           Cultos gravados
           <p/>
           <img src={cultosGravados}/>
+          <p/>
+          Assista e seja abençoado!
         </div>
         <div className='harpa'>
           Harpa Cristã
