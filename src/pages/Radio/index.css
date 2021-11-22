@@ -144,6 +144,16 @@
   padding-top: 4%;
 }
 
+#main_radio_content .main_label .harpa a{
+  background: none;
+  border: none;
+}
+
+#main_radio_content .main_label .harpa a:hover{
+  transition: 0.3s;
+  cursor: pointer;
+}
+
 #main_radio_content .main_label .harpa img{
   position: relative;
   width: 95%;

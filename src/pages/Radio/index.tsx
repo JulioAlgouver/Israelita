@@ -51,9 +51,9 @@ const Midia: React.FC = () => {
         <div className='harpa'>
           Harpa Cristã
           <p/>
-          <button>
+          <a href='https://www.harpacrista.org/' target='_blank'>
             <img src={capaHarpa}/>
-          </button>
+          </a>
         </div>
       </div>
     </div>
