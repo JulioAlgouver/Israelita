@@ -51,7 +51,9 @@ const Midia: React.FC = () => {
         <div className='harpa'>
           Harpa Cristã
           <p/>
-          <img src={capaHarpa}/>
+          <button>
+            <img src={capaHarpa}/>
+          </button>
         </div>
       </div>
     </div>
