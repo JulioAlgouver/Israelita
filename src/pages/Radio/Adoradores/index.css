@@ -1,0 +1,41 @@
+#popup-container .list-video{
+  position: relative;
+  display: flex;
+  width: 25%;
+  height: 100%;
+  overflow-y: scroll;
+  justify-content: center;
+}
+
+#popup-container .list-video .menu{
+  position: relative;
+  display: flex;
+  width: 90%;
+  padding-top: 5%;
+  justify-content: center;
+  color: thistle;
+}
+
+#popup-container .list-video .menu button{
+  position: relative;
+  display: flex;
+  float: left;
+  width: 90%;
+  height: 15%;
+  justify-content: center;
+  align-items: center;
+  color: rgb(12, 12, 44);
+  border-radius: 15px;
+}
+
+#popup-container .list-video .menu button:hover{
+  cursor: pointer;
+}
+
+#popup-container .video{
+  position: relative;
+  display: flex;
+  width: 75%;
+  height: 100%;
+  overflow-y: none;
+}

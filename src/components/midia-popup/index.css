@@ -1,9 +1,10 @@
 #popup-container{
   position: fixed;
-  width: 590px;
-  height: 340px;
-  top: 0;
-  left: 30vh;
+  width: 80%;
+  height: 70%;
+  top: 20%;
+  left: 10%;
+  padding: 5px;
   background-color: rgb(27, 34, 53);
   border-radius: 15px;
   border: 4px solid white;
