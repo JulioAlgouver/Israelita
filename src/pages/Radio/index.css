@@ -94,17 +94,30 @@
   width: 25%;
   height: 95%;
   padding-top: 4%;
-  
-  justify-content: center;
-  align-content: center;
+  margin-left: 3%;
+}
+
+#main_radio_content .main_label .despertai a{
+  display: flex;
+  width: 100%;
+  height: 35%;
+  background: none;
+  transition: 0.4s;
+  border-radius: 5px;
+  border: none;
+}
+
+#main_radio_content .main_label .despertai a:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 4px rgb(144, 160, 184);
 }
 
 #main_radio_content .main_label .despertai img{
   position: relative;
-  width: 95%;
-  height: 35%;
+  width: 100%;
+  height: 100%;
   opacity: 100%;
-  left: 3%;
+  border-radius: 5px;
   top: 0%;
 }
 
@@ -116,26 +129,57 @@
 
 #main_radio_content .main_label .adoradores img{
   position: relative;
-  width: 95%;
-  height: 35%;
+  width: 100%;
+  height: 100%;
   opacity: 100%;
-  left: 3%;
+  border-radius: 5px;
   top: 0%;
+}
+
+#main_radio_content .main_label .adoradores a{
+  display: flex;
+  width: 100%;
+  height: 35%;
+  background: none;
+  transition: 0.4s;
+  border-radius: 5px;
+  border: none;
+}
+
+#main_radio_content .main_label .adoradores a:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 4px rgb(144, 160, 184);
 }
 
 #main_radio_content .main_label .cultos{
   width: 25%;
   height: 95%;
   padding-top: 4%;
+  margin-left: 3%;
 }
 
 #main_radio_content .main_label .cultos img{
   position: relative;
-  width: 95%;
-  height: 35%;
+  width: 100%;
+  height: 100%;
   opacity: 100%;
-  left: 3%;
+  border-radius: 5px;
   top: 0%;
+}
+
+#main_radio_content .main_label .cultos a{
+  display: flex;
+  width: 100%;
+  height: 35%;
+  background: none;
+  transition: 0.4s;
+  border-radius: 5px;
+  border: none;
+}
+
+#main_radio_content .main_label .cultos a:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 4px rgb(144, 160, 184);
 }
 
 #main_radio_content .main_label .harpa{

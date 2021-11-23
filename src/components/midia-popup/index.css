@@ -1,9 +1,8 @@
 #popup-container{
-  position: absolute;
-  display: flex;
+  position: fixed;
   width: 590px;
   height: 340px;
-  top: -4vw;
+  top: 0;
   left: 30vh;
   background-color: rgb(27, 34, 53);
   border-radius: 15px;

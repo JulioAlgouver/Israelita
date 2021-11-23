@@ -14,6 +14,9 @@ import capaHarpa from '../../images/capa_harpa.jpg';
 
 //CSS
 import './index.css';
+import Despertai from './Despertai';
+import Adoradores from './Adoradores';
+import CultosGravados from './Gravacoes';
 
 const Midia: React.FC = () => {
   return(
@@ -30,21 +33,27 @@ const Midia: React.FC = () => {
         <div className='adoradores'>
           Programa Adoradores
           <p/>
-          <img src={capaAdoradores}/>
+            <Popup trigger={<a><img src={capaAdoradores}/></a>}>
+              <Adoradores/>
+            </Popup>
           <p/>
           Sábado: 12h às 14h
         </div>
         <div className='despertai'>
           Programa Despertai
           <p/>
-          <img src={capaDespertai}/>
+            <Popup trigger={<a><img src={capaDespertai}/></a>}>
+              <Despertai/>
+            </Popup>
           <p/>
           Sábado: 14h às 16h
         </div>
         <div className='cultos'>
           Cultos gravados
           <p/>
-          <img src={cultosGravados}/>
+            <Popup trigger={<a><img src={cultosGravados}/></a>}>
+              <CultosGravados/>
+            </Popup>
           <p/>
           Assista e seja abençoado!
         </div>
