@@ -30,21 +30,6 @@
   overflow-y: scroll;
 }
 
-#popup-container{
-  position: absolute;
-  display: flex;
-  width: 590px;
-  height: 340px;
-  top: -4vw;
-  left: 30vh;
-  background-color: rgb(27, 34, 53);
-  border-radius: 15px;
-  border: 4px solid white;
-
-  justify-content: center;
-  align-items: center;
-}
-
 #main_radio_content img{
   position: absolute;
   display: flex;

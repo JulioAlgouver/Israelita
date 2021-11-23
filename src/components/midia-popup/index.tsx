@@ -1,10 +1,12 @@
 import React from "react";
 
+import './index.css';
+
 const PopupContainer: React.FC = () => {
   return(
     <>
-      <div>
-        
+      <div id='popup-container'>
+
       </div>
     </>
   )
