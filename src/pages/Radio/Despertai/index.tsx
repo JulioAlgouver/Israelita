@@ -20,7 +20,7 @@ const Despertai: React.FC = () => {
               <ul>
                 <li>
                   <Popup trigger={<button>20/11</button>}>
-                    <Despertai06102021/>
+                    <Despertai20112021/>
                   </Popup>
                 </li>
               <br/>
