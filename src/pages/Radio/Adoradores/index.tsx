@@ -1,5 +1,6 @@
 import React from "react";
 import Popup from "reactjs-popup";
+import { Adoradores06112021 } from "./Gravacoes/2021";
 
 //CSS
 import './index.css';
@@ -15,14 +16,18 @@ const Adoradores: React.FC = () => {
       <div id='popup-container'>
         <div className='list-video'>
           <div className='menu'>
-            <span>Programa Adoradores</span>
-            <Popup trigger={<button>20/11</button>}>
-
-            </Popup>
+            <div className='title'>
+              Programa Adoradores
+            </div>
+            <div className='selection-container'>
+              <Popup trigger={<button>06/11</button>}>
+                <Adoradores06112021/>
+              </Popup>
+            </div>
           </div>
         </div>
         <div className='video'>
-          teste
+
         </div>
       </div>
     </>

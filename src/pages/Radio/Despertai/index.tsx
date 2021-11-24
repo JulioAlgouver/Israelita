@@ -11,12 +11,13 @@ import Player from "../../../components/player/player";
 //CSS
 import './index.css';
 import PopupContainer from '../../../components/midia-popup';
+import { Despertai20112021 } from './Gravacoes/2021';
 
 const Despertai: React.FC = () => {
   return(
     <>
       <PopupContainer>
-
+        <Despertai20112021/>
       </PopupContainer>
     </>
   )
