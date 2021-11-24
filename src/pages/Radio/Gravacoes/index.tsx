@@ -1,23 +1,34 @@
 import Popup from 'reactjs-popup';
 import React from "react";
-import { Link } from "react-router-dom";
-
-//COMPONENTS
-import Menu from "../../../components/menu/menu";
-import Player from "../../../components/player/player";
-
-//IMAGES
 
 //CSS
 import './index.css';
-import PopupContainer from '../../../components/midia-popup';
+import { Primicias07112021 } from './2021';
 
 const CultosGravados: React.FC = () => {
   return(
     <>
-      <PopupContainer>
+      <div id='popup-container'>
+        <div className='list-video'>
+          <div className='menu'>
+            <div className='title'>
+              Cultos Gravados
+            </div>
+            <div className='selection-container'>
+              <ul>
+                <li>
+                  <Popup trigger={<button>07/11</button>}>
+                    <Primicias07112021/>
+                  </Popup>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className='video'>
 
-      </PopupContainer>
+        </div>
+      </div>
     </>
   )
 }

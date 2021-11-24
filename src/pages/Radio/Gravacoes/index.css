@@ -1,0 +1,83 @@
+#video-container{
+  position: fixed;
+  display: flex;
+  width: 59.5%;
+  height: 70%;
+  top: 21%;
+  left: 31%;
+  justify-content: center;
+  align-items: center;
+}
+
+#video-container iframe{
+  width: 90%;
+  height: 90%;
+}
+
+#popup-container .list-video{
+  position: relative;
+  display: flex;
+  width: 25%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  justify-content: center;
+}
+
+#popup-container .list-video .menu{
+  position: absolute;
+  display: flex;
+  padding-top: 5%;
+  justify-content: center;
+  color: thistle;
+}
+
+#popup-container .list-video .menu .title{
+  position: relative;
+  display: flex;
+  float: left;
+}
+
+#popup-container .list-video .menu .selection-container{
+  position: absolute;
+  display: flex;
+  margin-top: 3pc;
+  width: 100%;
+  float: left;
+}
+
+#popup-container .list-video .menu button{
+  position: relative;
+  display: flex;
+  float: left;
+  width: 10pc;
+  height: 4pc;
+  justify-content: center;
+  align-items: center;
+  color: thistle;
+  background: rgb(53, 58, 109);
+  border: solid 2px thistle;
+  border-radius: 15px;
+  transition: 0.4s;
+  font-size: 25px;
+}
+
+#popup-container .list-video .menu button:hover{
+  cursor: pointer;
+  background: rgb(74, 80, 145);
+  border: solid 2px rgb(255, 255, 255);
+}
+
+#popup-container .list-video .menu .selection-container li{
+  position: relative;
+  display: flex;
+  right: 28%;
+}
+
+#popup-container .video{
+  position: relative;
+  display: flex;
+  width: 75%;
+  height: 100%;
+  overflow-y: none;
+}

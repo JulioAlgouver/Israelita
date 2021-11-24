@@ -1,5 +1,6 @@
 import React from "react";
 import Popup from "reactjs-popup";
+import PopupContainer from "../../../components/midia-popup";
 import { Adoradores06112021 } from "./Gravacoes/2021";
 
 //CSS
@@ -13,6 +14,7 @@ const Adoradores: React.FC = () => {
 
   return(
     <>
+    <PopupContainer/>
       <div id='popup-container'>
         <div className='list-video'>
           <div className='menu'>
