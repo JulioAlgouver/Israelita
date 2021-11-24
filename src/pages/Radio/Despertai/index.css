@@ -99,3 +99,9 @@
   height: 75%;
   margin-top: 10%;
 }
+
+#popup-container .list-video .menu .selection-container li{
+  position: relative;
+  display: flex;
+  right: 28%;
+}

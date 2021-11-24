@@ -20,9 +20,13 @@ const Adoradores: React.FC = () => {
               Programa Adoradores
             </div>
             <div className='selection-container'>
-              <Popup trigger={<button>06/11</button>}>
-                <Adoradores06112021/>
-              </Popup>
+              <ul>
+                <li>
+                  <Popup trigger={<button>06/11</button>}>
+                    <Adoradores06112021/>
+                  </Popup>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
