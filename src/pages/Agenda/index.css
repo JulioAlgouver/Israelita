@@ -1,0 +1,18 @@
+#main_label_agenda{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(27, 34, 53);
+}
+
+#main_label_agenda .content{
+  position: absolute;
+  display: flex;
+  width: 85%;
+  height: 100vh;
+
+  background: linear-gradient( 2200deg, rgb(190, 190, 190), rgb(230, 229, 229));
+  color: rgb(27, 34, 53);;
+  overflow-y: scroll;
+}

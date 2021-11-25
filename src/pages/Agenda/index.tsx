@@ -7,10 +7,12 @@ import './index.css';
 const Agenda: React.FC = () => {
   return(
     <>
-    <Menu/>
-    <div>
-
-    </div>
+      <Menu/>
+      <div id='main_label_agenda'>
+        <div className='content'>
+          
+        </div>
+      </div>
     </>
   )
 }
