@@ -4,6 +4,7 @@ import Menu from "../../components/menu/menu";
 //IMAGES
 import sede from '../../images/sede_fachada.jpg';
 import pastores from '../../images/pastores.jpg';
+import cremos from '../../images/cremos.png';
 
 //CSS
 import './index.css';
@@ -28,6 +29,8 @@ const Sobre: React.FC = () =>{
       </div>
       <div className='cremos'>
         <strong>No que cremos</strong>
+        <p/>
+        <img src={cremos}/>
       </div>
     </div>
   </div>

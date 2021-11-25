@@ -97,6 +97,11 @@
   font-weight: 100;
 }
 
-#main_label_sobre .content .cremos span{
-
+#main_label_sobre .content .cremos img{
+  position: absolute;
+  display: flex;
+  top: 15%;
+  left: 5%;
+  width: 90%;
+  height: 135%;
 }
