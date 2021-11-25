@@ -1,4 +1,5 @@
 #main_label_galeria{
+  position: absolute;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -7,14 +8,13 @@
 }
 
 #main_label_galeria .content{
-  position: absolute;
-  display: flex;
+  position: absolute; 
+  float: left;
   width: 85%;
   height: 100vh;
   
   background: linear-gradient( 2200deg, rgb(190, 190, 190), rgb(230, 229, 229));
   color: rgb(27, 34, 53);;
-  overflow-y: scroll;
 }
 
 #main_label_galeria .content strong{
@@ -30,12 +30,37 @@
 
 #main_label_galeria .content .galeria{
   position: relative;
-  display: flex;
+  display: block;
+  width: 100%;
+  height:75%;
+  float: left;
+  overflow-y: scroll;
 }
 
-#main_label_galeria .content .galeria button{
+#main_label_galeria .content .galeria a{
   position: relative;
-  display: flex;
-  width: 50%;
-  height: 50%;  
+  display: block;
+  float: left;
+  width: 25%;
+  height: 40%;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+  background: none;
+  border: none;
+  transition: 0.3s;
+  justify-content: center;
+  align-content: center;
+  border: 2px solid whitesmoke;
+}
+
+#main_label_galeria .content .galeria a:hover{
+ cursor: pointer;
+ border: 2px solid lightslategray;
+}
+
+#main_label_galeria .content .galeria a img{
+  width: 100%;
+  height: 100%;  
 }
