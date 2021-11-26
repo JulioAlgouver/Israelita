@@ -9,6 +9,9 @@ import './index.css';
 import sede from './Fotos/IgrejaSede/sede.jpg';
 import vilaSandra from './Fotos/VilaSandra/vilaSandra.jpg';
 
+//COMPONENTS
+import {GaleriaSede, GaleriaVilaSandra} from "./Fotos/gallery";
+
 const Galeria: React.FC = () => {
   return(
     <>
@@ -18,11 +21,11 @@ const Galeria: React.FC = () => {
           <strong>Galeria de Fotos</strong>
             <div className='galeria'>
               <Popup trigger={<a><img src={sede}/><figcaption>Igreja Sede</figcaption></a>}>
-
+                <GaleriaSede/>
               </Popup>
 
               <Popup trigger={<a><img src={vilaSandra}/><figcaption>Vila Sandra</figcaption></a>}>
-
+                <GaleriaVilaSandra/>
               </Popup>
 
               <Popup trigger={<a><img src=''/></a>}>

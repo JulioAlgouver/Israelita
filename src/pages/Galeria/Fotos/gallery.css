@@ -1,0 +1,10 @@
+#photo-gallery-container{
+  position: fixed;
+  width: 60%;
+  height: 70%;
+  top: 25%;
+  left: 20%;
+  background: linear-gradient( 2200deg, rgb(190, 190, 190, 0.85), rgb(230, 229, 229));
+  border: 3px solid rgb(89, 89, 129, 0.7);
+  border-radius: 10px;
+}
