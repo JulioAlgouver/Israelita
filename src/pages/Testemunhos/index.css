@@ -16,3 +16,11 @@
   color: rgb(27, 34, 53);;
   overflow-y: scroll;
 }
+
+#main_label_testemunhos .novoTestemunho{
+  position: relative;
+  display: flex;
+  width: 30%;
+  height: 30%;
+  top: 30%;
+}
