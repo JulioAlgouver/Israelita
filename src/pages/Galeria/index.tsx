@@ -27,22 +27,6 @@ const Galeria: React.FC = () => {
               <Popup trigger={<a><img src={vilaSandra}/><figcaption>Vila Sandra</figcaption></a>}>
                 <GaleriaVilaSandra/>
               </Popup>
-
-              <Popup trigger={<a><img src=''/></a>}>
-
-              </Popup>
-
-              <Popup trigger={<a><img src=''/></a>}>
-
-              </Popup>
-
-              <Popup trigger={<a><img src=''/></a>}>
-
-              </Popup>
-
-              <Popup trigger={<a><img src=''/></a>}>
-
-              </Popup>
             </div>
         </div>
       </div>
