@@ -18,21 +18,25 @@
 }
 
 #main_label_testemunhos .novoTestemunho{
-  position: relative;
+  position: absolute;
   display: flex;
   width: 20%;
-  height: 25%;
+  height: auto;
   top: 20%;
+  right: 78%;
   background: rgb(57, 57, 85);
+  border: 2px solid thistle;
+  border-radius: 15px;
+  transition: 0.3s;
 }
 
 #main_label_testemunhos .novoTestemunho span{
   position: relative;
+  display: flex;
   float: left;
   width: 100%;
   height: 100%;
-  top: 20%;
-  background: rgb(57, 57, 85);
+  justify-content: center;
 }
 
 #main_label_testemunhos .novoTestemunho a{
@@ -40,6 +44,16 @@
   float: left;
   width: 100%;
   height: 100%;
-  top: 20%;
-  background: rgb(57, 57, 85);
+}
+
+#main_label_testemunhos .novoTestemunho a:hover{
+  cursor: pointer;
+
+}
+
+#main_label_testemunhos .novoTestemunho a img{
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
 }
