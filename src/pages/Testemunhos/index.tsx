@@ -20,6 +20,7 @@ const Testemunhos: React.FC = () => {
           <Popup trigger={
             <a>
               <span><p>Deixe seu testemunho!</p></span>
+              <br/>
               <img src={btn_newTest}/>
             </a>
           }>
