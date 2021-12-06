@@ -41,3 +41,17 @@ export const GaleriaVilaSandra: React.FC = () => {
       </div>   
   )
 }
+
+export const Galeria7anos: React.FC = () => {
+  return(
+      <div id='photo-gallery-container'>
+        <div className='content'>
+          <img src={vilaSandra1}></img>
+          <img src={vilaSandra2}></img>
+          <img src={vilaSandra3}></img>
+          <img src={vilaSandra4}></img>
+          <img src={vilaSandra5}></img>
+        </div>
+      </div>   
+  )
+}

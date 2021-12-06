@@ -8,9 +8,9 @@ import './index.css';
 //IMAGES
 import sede from './Fotos/IgrejaSede/sede.jpg';
 import vilaSandra from './Fotos/VilaSandra/vilaSandra.jpg';
-
+import capaAniversario from './Fotos/7anos/capa.jpg';
 //COMPONENTS
-import {GaleriaSede, GaleriaVilaSandra} from "./Fotos/gallery";
+import {Galeria7anos, GaleriaSede, GaleriaVilaSandra} from "./Fotos/gallery";
 
 const Galeria: React.FC = () => {
   return(
@@ -26,6 +26,10 @@ const Galeria: React.FC = () => {
 
               <Popup trigger={<a><img src={vilaSandra}/><figcaption>Vila Sandra</figcaption></a>}>
                 <GaleriaVilaSandra/>
+              </Popup>
+
+              <Popup trigger={<a><img src={capaAniversario}/><figcaption>7º Aniversário IEADMI</figcaption></a>}>
+                <Galeria7anos/>
               </Popup>
             </div>
         </div>
