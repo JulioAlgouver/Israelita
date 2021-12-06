@@ -3,7 +3,7 @@ import React from "react";
 
 //CSS
 import './index.css';
-import { Primicias07112021 } from './2021';
+import { Abertura7Aniversario, Encerramento7Aniversario, Primicias07112021 } from './2021';
 
 const CultosGravados: React.FC = () => {
   return(
@@ -16,6 +16,16 @@ const CultosGravados: React.FC = () => {
             </div>
             <div className='selection-container'>
               <ul>
+                <li>
+                  <Popup trigger={<button>05/12</button>}>
+                    <Encerramento7Aniversario/>
+                  </Popup>
+                </li>
+                <li>
+                  <Popup trigger={<button>04/12</button>}>
+                    <Abertura7Aniversario/>
+                  </Popup>
+                </li>
                 <li>
                   <Popup trigger={<button>07/11</button>}>
                     <Primicias07112021/>
