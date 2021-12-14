@@ -1,9 +1,11 @@
 #novoTestemunhoContainer{
   position: fixed;
   display: flex;
-  width: 60%;
-  height: 60%;
-  top: 30%;
-  left: 30%;
-  background: blue;
+  width: 35%;
+  height: 70%;
+  top: 20%;
+  left: 20%;
+  background: rgb(73, 73, 155);
+  border: 3px solid rgb(34, 34, 88);
+  border-radius: 5%;
 }

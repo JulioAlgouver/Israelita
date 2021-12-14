@@ -7,6 +7,7 @@ import './index.css';
 
 //IMAGENS
 import btn_newTest from '../../images/btn_novoTestemunho.png';
+import NovoTestemunho from "./New";
 
 const Testemunhos: React.FC = () => {
   return(
@@ -24,6 +25,7 @@ const Testemunhos: React.FC = () => {
               <img src={btn_newTest}/>
             </a>
           }>
+            <NovoTestemunho/>
           </Popup>
         </div>
       </div>
