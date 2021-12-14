@@ -11,6 +11,10 @@
   padding: 1%;
 }
 
+#novoTestemunhoContainer label{
+  margin-bottom: 5px;
+}
+
 #novoTestemunhoContainer .nome{
   display: flex;
   width: 200%;
