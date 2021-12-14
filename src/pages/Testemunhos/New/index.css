@@ -1,0 +1,9 @@
+#novoTestemunhoContainer{
+  position: fixed;
+  display: flex;
+  width: 60%;
+  height: 60%;
+  top: 30%;
+  left: 30%;
+  background: blue;
+}
