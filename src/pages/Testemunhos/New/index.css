@@ -1,11 +1,40 @@
 #novoTestemunhoContainer{
   position: fixed;
   display: flex;
-  width: 35%;
-  height: 70%;
-  top: 20%;
-  left: 20%;
+  width: 27%;
+  height: 55%;
+  top: 23%;
+  left:10%;
   background: rgb(73, 73, 155);
   border: 3px solid rgb(34, 34, 88);
   border-radius: 5%;
+  padding: 1%;
+}
+
+#novoTestemunhoContainer .nome{
+  display: flex;
+  width: 200%;
+  height: 6%;
+  margin-bottom: 10px;
+}
+
+#novoTestemunhoContainer .email{
+  display: flex;
+  width: 200%;
+  height: 6%;
+  margin-bottom: 10px;
+}
+
+#novoTestemunhoContainer .phone{
+  display: flex;
+  width: 200%;
+  height: 6%;
+  margin-bottom: 10px;
+}
+
+#novoTestemunhoContainer .testemunho{
+  display: flex;
+  width: 200%;
+  height: 30%;
+  margin-bottom: 10px;
 }
