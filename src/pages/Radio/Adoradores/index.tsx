@@ -23,6 +23,10 @@ const Adoradores: React.FC = () => {
             </div>
             <div className='selection-container'>
               <ul>
+                
+                2021
+                <hr/>
+                <br/>
                 <li>
                   <Popup trigger={<button>18/12</button>}>
                     <Adoradores18122021/>
