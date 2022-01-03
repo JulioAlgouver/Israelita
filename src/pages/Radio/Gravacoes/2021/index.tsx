@@ -31,3 +31,33 @@ export const Encerramento7Aniversario: React.FC = () => {
     </>
   )
 }
+
+export const CultoNatal: React.FC = () => {
+  return(
+    <>
+      <div id='video-container'>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lvvlO3sspiY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+      </div>
+    </>
+  )
+}
+
+export const CultoEvangelismo26122021: React.FC = () => {
+  return(
+    <>
+      <div id='video-container'>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/KH6ALPLnAs4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+      </div>
+    </>
+  )
+}
+
+export const CultoAnoNovo2022: React.FC = () => {
+  return(
+    <>
+      <div id='video-container'>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/T-0IRcZPBoU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+      </div>
+    </>
+  )
+}

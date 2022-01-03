@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 import './index.css';
 
 function sendMail() {
-  var link = "mailto:me@example.com"
+  var link = "mailto:israelitaiead@gmail.com"
           + "?cc=myCCaddress@example.com"
           + "&subject=" + escape("This is my subject")
           + "&body=" + 'teste';

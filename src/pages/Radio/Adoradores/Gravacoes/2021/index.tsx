@@ -22,3 +22,12 @@ export const Adoradores13112021: React.FC = () => {
   )
 }
 
+  export const Adoradores18122021: React.FC = () => {
+    return(
+      <>
+        <div id='video-container'>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/o3zrk2t3GTE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+      </>
+    )
+}
