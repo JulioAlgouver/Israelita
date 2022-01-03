@@ -28,13 +28,11 @@ const Adoradores: React.FC = () => {
                     <Adoradores18122021/>
                   </Popup>
                 </li>
-                <br/>
                 <li>
                   <Popup trigger={<button>13/11</button>}>
                     <Adoradores13112021/>
                   </Popup>
                 </li>
-                <br/>
                 <li>
                   <Popup trigger={<button>06/11</button>}>
                     <Adoradores06112021/>

@@ -23,13 +23,11 @@ const Despertai: React.FC = () => {
                     <Despertai18122021/>
                   </Popup>
                 </li>
-              <br/>
                 <li>
                   <Popup trigger={<button>20/11</button>}>
                     <Despertai20112021/>
                   </Popup>
                 </li>
-              <br/>
                 <li>
                   <Popup trigger={<button>06/10</button>}>
                     <Despertai06102021/>
