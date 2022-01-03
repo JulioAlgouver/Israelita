@@ -3,43 +3,31 @@ import React, {useState} from 'react';
 //CSS
 import './index.css';
 
-const NovoTestemunho: React.FC = () => {
+function sendMail() {
+  var link = "mailto:me@example.com"
+          + "?cc=myCCaddress@example.com"
+          + "&subject=" + escape("This is my subject")
+          + "&body=" + 'teste';
 
-  const [campos, setCampos] = useState({
-      nome: '',
-      email: '',
-      phone: '',
-      testemunho: ''
-  });
-
-  function handleInputChange(event:any){
-    if(event.target.name === "anexo")
-      campos[event.target.name] = event.target.files[0];
-    else
-      campos[event.target.name] = event.target.value;
-    setCampos(campos);
+  window.location.href = link;
 }
 
-  function handleFormSubmit(event:any){
-    event.preventDefault();
-    console.log(campos);
-  }
-
+const NovoTestemunho: React.FC = () => {
   return(
     <>
       <div id='novoTestemunhoContainer'>
-        <form onSubmit={handleFormSubmit}>
+        <form onSubmit={sendMail}>
           <label htmlFor="nome">Nome</label>
-          <input type='text' className='nome' name='nome' placeholder='Informe seu nome' onChange={handleInputChange}></input>
+          <input type='text' className='nome' name='nome' placeholder='Informe seu nome'></input>
 
           <label htmlFor="email">Email</label>
-          <input type='email' className='email' name='email' placeholder='Seu email' onChange={handleInputChange}></input>
+          <input type='email' className='email' name='email' placeholder='Seu email'></input>
 
           <label htmlFor="telefone">Telefone</label>
-          <input type='tel' className='phone' name='phone' placeholder='Seu telefone' onChange={handleInputChange}></input>
+          <input type='tel' className='phone' name='phone' placeholder='Seu telefone'></input>
 
           <label htmlFor="testemunho">Seu Testemunho</label>
-          <textarea className='testemunho' name='testemunho' placeholder='Nos conte seu testemunho' onChange={handleInputChange}></textarea>
+          <textarea className='testemunho' name='testemunho' placeholder='Nos conte seu testemunho'></textarea>
 
           <input type="submit" value="Enviar" className='btn_enviar'/>
         </form>
