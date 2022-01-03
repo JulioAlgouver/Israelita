@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 //CSS
 import './index.css';
 import PopupContainer from '../../../components/midia-popup';
-import { Despertai06102021, Despertai20112021 } from './Gravacoes/2021';
+import { Despertai06102021, Despertai18122021, Despertai20112021 } from './Gravacoes/2021';
 
 const Despertai: React.FC = () => {
   return(
@@ -18,6 +18,12 @@ const Despertai: React.FC = () => {
             </div>
             <div className='selection-container'>
               <ul>
+                <li>
+                  <Popup trigger={<button>18/12</button>}>
+                    <Despertai18122021/>
+                  </Popup>
+                </li>
+              <br/>
                 <li>
                   <Popup trigger={<button>20/11</button>}>
                     <Despertai20112021/>

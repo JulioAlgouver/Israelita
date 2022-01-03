@@ -1,7 +1,7 @@
 import React from "react";
 import Popup from "reactjs-popup";
 import PopupContainer from "../../../components/midia-popup";
-import { Adoradores06112021, Adoradores13112021 } from "./Gravacoes/2021";
+import { Adoradores06112021, Adoradores13112021, Adoradores18122021 } from "./Gravacoes/2021";
 
 //CSS
 import './index.css';
@@ -23,7 +23,13 @@ const Adoradores: React.FC = () => {
             </div>
             <div className='selection-container'>
               <ul>
-              <li>
+                <li>
+                  <Popup trigger={<button>18/12</button>}>
+                    <Adoradores18122021/>
+                  </Popup>
+                </li>
+                <br/>
+                <li>
                   <Popup trigger={<button>13/11</button>}>
                     <Adoradores13112021/>
                   </Popup>
