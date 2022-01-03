@@ -3,7 +3,7 @@ import React from "react";
 
 //CSS
 import './index.css';
-import { Abertura7Aniversario, CultoAnoNovo2022, CultoEvangelismo26122021, CultoNatal, Encerramento7Aniversario, Primicias07112021 } from './2021';
+import { Abertura7Aniversario, CultoAnoNovo2022, CultodeLouvor02012022, CultoEvangelismo26122021, CultoNatal, Encerramento7Aniversario, Primicias07112021 } from './2021';
 
 const CultosGravados: React.FC = () => {
   return(
@@ -16,6 +16,15 @@ const CultosGravados: React.FC = () => {
             </div>
             <div className='selection-container'>
               <ul>
+
+                2022
+                <hr/>
+                <br/>
+                <li>
+                  <Popup trigger={<button>02/01</button>}>
+                    <CultodeLouvor02012022/>
+                  </Popup>
+                </li>
 
                 2021
                 <hr/>

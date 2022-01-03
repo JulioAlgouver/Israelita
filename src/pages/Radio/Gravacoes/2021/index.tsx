@@ -61,3 +61,13 @@ export const CultoAnoNovo2022: React.FC = () => {
     </>
   )
 }
+
+export const CultodeLouvor02012022: React.FC = () => {
+  return(
+    <>
+      <div id='video-container'>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/3AlWKlmFE5w" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+      </div>
+    </>
+  )
+}
