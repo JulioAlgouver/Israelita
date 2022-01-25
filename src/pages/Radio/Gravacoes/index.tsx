@@ -4,6 +4,7 @@ import React from "react";
 //CSS
 import './index.css';
 import { Abertura7Aniversario, CultoAnoNovo2022, CultodeLouvor02012022, CultoEvangelismo26122021, CultoNatal, Encerramento7Aniversario, Primicias07112021 } from './2021';
+import { Ceia09012022, CultoJovem08012022, CultoJubilacao22012022, DomingoProfetico23012022 } from './2022';
 
 const CultosGravados: React.FC = () => {
   return(
@@ -20,6 +21,26 @@ const CultosGravados: React.FC = () => {
                 2022
                 <hr/>
                 <br/>
+                <li>
+                  <Popup trigger={<button>23/01</button>}>
+                    <DomingoProfetico23012022/>
+                  </Popup>
+                </li>
+                <li>
+                  <Popup trigger={<button>22/01</button>}>
+                    <CultoJubilacao22012022/>
+                  </Popup>
+                </li>
+                <li>
+                  <Popup trigger={<button>09/01</button>}>
+                    <Ceia09012022/>
+                  </Popup>
+                </li>
+                <li>
+                  <Popup trigger={<button>08/01</button>}>
+                    <CultoJovem08012022/>
+                  </Popup>
+                </li>
                 <li>
                   <Popup trigger={<button>02/01</button>}>
                     <CultodeLouvor02012022/>

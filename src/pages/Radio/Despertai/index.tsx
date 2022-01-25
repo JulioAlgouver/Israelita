@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import './index.css';
 import PopupContainer from '../../../components/midia-popup';
 import { Despertai06102021, Despertai18122021, Despertai20112021 } from './Gravacoes/2021';
+import { Despertai08012022, Despertai15012022 } from './Gravacoes/2022';
 
 const Despertai: React.FC = () => {
   return(
@@ -18,7 +19,19 @@ const Despertai: React.FC = () => {
             </div>
             <div className='selection-container'>
               <ul>
-                
+                2022
+                <hr/>
+                <br/>
+              <li>
+                  <Popup trigger={<button>15/01</button>}>
+                    <Despertai15012022/>
+                  </Popup>
+                </li>
+                <li>
+                  <Popup trigger={<button>08/01</button>}>
+                    <Despertai08012022/>
+                  </Popup>
+                </li>
                 2021
                 <hr/>
                 <br/>
