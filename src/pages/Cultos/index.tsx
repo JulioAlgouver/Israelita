@@ -25,16 +25,16 @@ const Cultos: React.FC = () => {
               4º Domingo - Domingo Profético - 19h
             </h6>
           </div>
-          <div className='terca'>
-            <strong>Terça</strong>
-            <h6>
-              Oração e Estudo da Palavra - 20h
-            </h6>
-          </div>
           <div className='quinta'>
             <strong>Quinta</strong>
             <h6>
               Culto da Vitória - 20h
+            </h6>
+          </div>
+          <div className='terca'>
+            <strong>Sexta</strong>
+            <h6>
+              Oração e Estudo da Palavra - 20h
             </h6>
           </div>
           <div className='sabado'>
@@ -46,7 +46,7 @@ const Cultos: React.FC = () => {
               2º Sábado - Jovens & Orquestra - 20h<p/>
               3º Sábado - Circulo de Oração - 20h<p/>
               4º Sábado - Evangelismo - 20h<p/>
-              5º Sábado - Departamento Infantil - 20h
+              5º Sábado - Culto Infantil / Varões - 20h
             </h6>
           </div>
         </div>
@@ -55,19 +55,19 @@ const Cultos: React.FC = () => {
           <div className='domingo'>
             <strong>Domingo</strong>
             <h6>
-              
+              Culto da Família - 19h
             </h6>
           </div>
           <div className='quarta'>
             <strong>Quarta</strong>
             <h6>
-              
+              Culto da Vitória - 20h
             </h6>
           </div>
           <div className='sabado'>
             <strong>Sábado</strong>
             <h6>
-              
+              Cultos com Departamentos - 19h30min
             </h6>
           </div>
         </div>
