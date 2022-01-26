@@ -15,16 +15,16 @@ const Sobre: React.FC = () =>{
   <Menu/>
   <div id='main_label_sobre'>
     <div className='content'>
-      <div className='sobre'>
-        <strong>Nossa história</strong>
-        <div className='foto'>
-          <img src={sede}/>
-        </div>
-      </div>
       <div className='pastores'>
         <strong>Nossos pastores</strong>
         <div className='foto'>
           <img src={pastores}/>
+        </div>
+      </div>
+      <div className='sobre'>
+        <strong>Nossa história</strong>
+        <div className='foto'>
+          <img src={sede}/>
         </div>
       </div>
       <div className='cremos'>
