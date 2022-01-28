@@ -21,12 +21,14 @@ const Sobre: React.FC = () =>{
           <img src={pastores}/>
         </div>
       </div>
+
       <div className='sobre'>
         <strong>Nossa história</strong>
         <div className='foto'>
           <img src={sede}/>
         </div>
       </div>
+
       <div className='cremos'>
         <strong>No que cremos</strong>
         <p/>

@@ -23,7 +23,7 @@
   float: right;
   width: 95%;
   height: 70%;
-  top: 20%;
+  top: 80%;
   padding: 2%;
 }
 
@@ -52,10 +52,10 @@
 #main_label_sobre .content .pastores{
   position: absolute;
   display: flex;
-  float: left;
+  float: right;
   width: 97%;
   height: 80%;
-  top: 80%;
+  top: 20%;
   justify-content: right;
 }
 
